@@ -1,0 +1,11 @@
+"Bazel dependencies, see https://registry.bazel.build"
+
+bazel_dep(name = "rules_cc", version = "0.1.1")
+bazel_dep(name = "bazel_skylib", version = "1.7.1")
+
+bazel_dep(name = "rules_python", version = "0.40.0")
+# Simplified Python setup - let Bazel find system Python
+python = use_extension("@rules_python//python/extensions:python.bzl", "python")
+python.toolchain(
+python_version = "3.11",
+)
