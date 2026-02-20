@@ -1,5 +1,5 @@
 project(gmock CXX C)
-cmake_minimum_required(VERSION 3.8)
+cmake_minimum_required(VERSION 3.10)
 
 find_package(gtest_vendor REQUIRED)
 
