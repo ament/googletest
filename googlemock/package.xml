@@ -28,5 +28,6 @@
 
   <export>
     <build_type>cmake</build_type>
+    <deprecated>Use the rosdep key libgmock-dev instead</deprecated>
   </export>
 </package>

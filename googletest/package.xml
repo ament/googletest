@@ -49,5 +49,6 @@
 
   <export>
     <build_type>cmake</build_type>
+    <deprecated>Use the rosdep key libgtest-dev instead</deprecated>
   </export>
 </package>
